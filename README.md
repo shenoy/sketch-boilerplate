@@ -4,12 +4,16 @@
 Laying groundwork to leverage the new Sketch 43 JSON file format
 
 ### Usage
-To render based on source files in ./src/
+
+* designs.sketch is the sketch file being worked on
+* the unpacked source files are in the ./src/ folder
+
+To render in Sketch based on source files
 ```sh
 npm run render
 ```
 
-To packup working 'designs.sketch' into ./src/
+After working on designs.sketch, to packup back into ./src/
 ```sh
 npm run packup
 ```
