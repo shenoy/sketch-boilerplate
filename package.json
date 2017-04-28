@@ -1,0 +1,22 @@
+{
+  "name": "sketch-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-sketch": " cd src && zip -r temp.sketch * && cd .. && mv src/temp.sketch designs.sketch",
+    "open-sketch": " open -a Sketch designs.sketch ",
+    "render": "npm run create-sketch && npm run open-sketch",
+    "packup": "cp designs.sketch temp.zip && unzip temp.zip -d ./src && rm -rf temp.zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shenoy/sketch-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shenoy/sketch-boilerplate/issues"
+  },
+  "homepage": "https://github.com/shenoy/sketch-boilerplate#readme"
+}
