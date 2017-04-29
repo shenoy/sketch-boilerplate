@@ -1,12 +1,12 @@
 ## Sketch Boilerplate 
 
 ### About
-Laying groundwork to leverage the new Sketch 43 JSON file format
+Boilerplate to leverage the new Sketch 43 JSON file format
 
 ### Usage
 
-* designs.sketch is the sketch file being worked on
-* the unpacked source files are in the ./src/ folder
+* source files are in the ./src/ folder
+* designs.sketch is the Sketch file
 
 To render designs.sketch based on source files
 ```sh
